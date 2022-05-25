@@ -30,7 +30,7 @@
             <h4>Vos tarifs</h4>
             <div class="form-container">
               <div class="form-field">
-                <label class="form-text">TH</label>
+                <label class="form-text lb-1">TH</label>
                 <input
                   class="form-control"
                   name="TH"
@@ -39,7 +39,7 @@
                 />
               </div>
               <div class="form-field">
-                <label class="form-text">TJM</label>
+                <label class="form-text lb-2">TJM</label>
                 <input
                   class="form-control"
                   name="TJM"
@@ -48,7 +48,7 @@
                 />
               </div>
               <div class="form-field">
-                <label class="form-text">EXTRAS</label>
+                <label class="form-text lb-3">EXTRAS</label>
                 <input
                   class="form-control"
                   name="Extras"
@@ -62,7 +62,7 @@
             <h4>Quantités</h4>
             <div class="form-container">
               <div class="form-field">
-                <label class="form-text">TH</label>
+                <label class="form-text lb-4">TH</label>
                 <input
                   class="form-control"
                   class="form-control"
@@ -72,7 +72,7 @@
                 />
               </div>
               <div class="form-field">
-                <label class="form-text">TJM</label>
+                <label class="form-text lb-5">TJM</label>
                 <input
                   class="form-control"
                   name="QteTJM"
@@ -81,7 +81,7 @@
                 />
               </div>
               <div class="form-field">
-                <label class="form-text">EXTRAS</label>
+                <label class="form-text lb-6">EXTRAS</label>
                 <input
                   class="form-control"
                   name="QteExtras"
@@ -96,7 +96,7 @@
             <h4>Charges</h4>
             <div class="form-container">
               <div class="form-field">
-                <label class="form-text">Retenues </label>
+                <label class="form-text lb-7">Retenues en <span class="purcent">% </span></label>
                 <input
                   class="form-control"
                   name="Charges"
@@ -107,7 +107,7 @@
             </div>
           </div>
           <div class="sectionCalcul validation text-center">
-            <button id="buttonValidation" type="button" class="btn btn-primary">
+            <button id="buttonValidation" type="button" class="btn btn-primary print-btn">
               Calculer
             </button>
           </div>
@@ -129,6 +129,12 @@
             </div>
           </div>
         </form>
+        
+
+        <div class="print-center">
+
+          <button class="btn print-btn" id="btn-print" type="button">imprimer, sauvegarder ?</button>
+        </div>
     
         <!-- <script src="https://code.jquery.com/jquery.min.js"></script> -->
         <script
@@ -137,5 +143,6 @@
             crossorigin="anonymous"></script>
         <script src="asset/js/smoke.js"></script>
         <script src="asset/js/table.js"></script>
+        <script src="asset/js/print.js"></script>
 </body>
 </html>
