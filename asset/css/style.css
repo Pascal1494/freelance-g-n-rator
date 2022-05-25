@@ -205,6 +205,10 @@ width: 100vw;
     left: 30%; */
     width: 100px;
 }
+.buyCoffee {
+    margin-bottom: -30px;
+    margin-left: 20px;
+}
 
 @media print {
     body {
