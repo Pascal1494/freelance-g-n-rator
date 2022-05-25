@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="asset/img/ico/logo.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="asset/css/smoke.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <title>Calculatrice de gain (freelance) </title>
+</head>
+<body>
+
+    <h1 class="remove" id="smoke">
+        <span class="letter">C</span><span class="letter">A</span><span class="letter">L</span><span class="letter">C</span><span class="letter">U</span><span class="letter">L</span><span class="letter">A</span><span class="letter">T</span><span class="letter">O</span><span class="letter">R</span><span class="letter">&nbsp</span><span class="letter">F</span><span class="letter">R</span><span class="letter">E</span><span class="letter">L</span><span class="letter">A</span><span class="letter">N</span><span class="letter">C</span><span class="letter">E</span><span class="letter">&nbsp</span><span class="letter">G</span><span class="letter">E</span><span class="letter">N</span><span class="letter">E</span><span class="letter">R</span><span class="letter">A</span><span class="letter">T</span><span class="letter">O</span><span class="letter">R</span>
+
+    </h1>
+    
+
+    <main class="container ">
+
+        <div class="logo-title">
+            <img src="./asset/img/all/logo-simple-removebg-preview.png" alt="" srcset="" class="logo">
+            <h2 class="title">La maison du code !</h2>
+        </div>
+
+        <form class="formCalcul shadow" id="formCalculGain">
+          <div class="sectionCalcul pricing">
+            <h4>Vos tarifs</h4>
+            <div class="form-container">
+              <div class="form-field">
+                <label class="form-text">TH</label>
+                <input
+                  class="form-control"
+                  name="TH"
+                  type="number"
+                  placeholder="Ex : 70"
+                />
+              </div>
+              <div class="form-field">
+                <label class="form-text">TJM</label>
+                <input
+                  class="form-control"
+                  name="TJM"
+                  type="number"
+                  placeholder="Ex : 350"
+                />
+              </div>
+              <div class="form-field">
+                <label class="form-text">EXTRAS</label>
+                <input
+                  class="form-control"
+                  name="Extras"
+                  type="number"
+                  placeholder="Ex : 47"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sectionCalcul qte">
+            <h4>Quantités</h4>
+            <div class="form-container">
+              <div class="form-field">
+                <label class="form-text">TH</label>
+                <input
+                  class="form-control"
+                  class="form-control"
+                  name="QteTH"
+                  type="number"
+                  placeholder="Ex : 140"
+                />
+              </div>
+              <div class="form-field">
+                <label class="form-text">TJM</label>
+                <input
+                  class="form-control"
+                  name="QteTJM"
+                  type="number"
+                  placeholder="Ex : 30"
+                />
+              </div>
+              <div class="form-field">
+                <label class="form-text">EXTRAS</label>
+                <input
+                  class="form-control"
+                  name="QteExtras"
+                  type="number"
+                  placeholder="Ex : 7"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sectionCalcul fees">
+            <!-- fees veut dire charges -->
+            <h4>Charges</h4>
+            <div class="form-container">
+              <div class="form-field">
+                <label class="form-text">Retenues </label>
+                <input
+                  class="form-control"
+                  name="Charges"
+                  type="number"
+                  placeholder="Ex : 140"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sectionCalcul validation text-center">
+            <button id="buttonValidation" type="button" class="btn btn-primary">
+              Calculer
+            </button>
+          </div>
+  
+          <div class="sectionCalcul result">
+            <div class="form-container">
+              <div class="resultDiv resultBrut">
+                <p>BRUT</p>
+                <span id="resultatBrut">0€</span>
+              </div>
+              <div class="resultDiv resultDifference">
+                <p>Taxes</p>
+                <span id="resultatDifference">0€</span>
+              </div>
+              <div class="resultDiv resultNet">
+                <p>NET</p>
+                <span id="resultatNet">0€</span>
+              </div>
+            </div>
+          </div>
+        </form>
+    
+        <!-- <script src="https://code.jquery.com/jquery.min.js"></script> -->
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+        <script src="asset/js/main.js"></script>
+        <script src="asset/js/table.js"></script>
+</body>
+</html>
