@@ -14,7 +14,7 @@
 .letter {
   display: inline-block;
   flex-wrap: wrap;
-  text-shadow: 0 0 0 whitesmoke;
+  text-shadow: 0 0 0 rgb(120, 7, 88);
   animation: smoky 5s 3s both;
 }
 
@@ -24,7 +24,7 @@
 
 @keyframes smoky {
   60% {
-    text-shadow: 0 0 40px whitesmoke;
+    text-shadow: 0 0 40px rgb(120, 7, 88);
   }
   to {
     transform:
@@ -32,21 +32,21 @@
       rotate(-40deg)
       skewX(70deg)
       scale(1.5);
-    text-shadow: 0 0 20px whitesmoke;
+    text-shadow: 0 0 20px rgb(120, 7, 88);
     opacity: 0;
   }
 }
 
 @keyframes smoky-mirror {
   60% {
-    text-shadow: 0 0 40px whitesmoke; }
+    text-shadow: 0 0 40px rgb(120, 7, 88); }
   to {
     transform:
       translate3d(18rem,-8rem,0)
       rotate(-40deg) 
       skewX(-70deg)
       scale(2);
-     text-shadow: 0 0 20px whitesmoke;
+     text-shadow: 0 0 20px rgb(120, 7, 88);
     opacity: 0;
   }
 }

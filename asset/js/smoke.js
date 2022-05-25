@@ -7,5 +7,5 @@ function fadeOut() {
   });
 }
 
-var delay = 6000; //3 seconds
+var delay = 6000; //6 seconds
 setTimeout(fadeOut, delay);

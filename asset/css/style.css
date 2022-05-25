@@ -178,13 +178,14 @@ width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
+    height: 100px;
 }
 .btn.print {
     background-color: firebrick;
-    
-   
-   
+}
+
+.print-btn {
+    transform: translateZ(-50%);
 }
 /* .lb-1:hover,
 .lb-2:hover,
@@ -199,13 +200,18 @@ width: 100vw;
 .form-field:hover {
     color: orangered;
 }
+.arrow {
+    /* position: absolute;
+    left: 30%; */
+    width: 100px;
+}
 
 @media print {
     body {
         background: none;
     }
     .container {
-        background-color: rgba(160, 154, 160, 0.557);
+        background-color: rgba(160, 154, 160, 0.557) !important;
     }
     
     .logo {
@@ -220,5 +226,8 @@ width: 100vw;
     .resultDiv {
         /* background: pink !important; */
         color: black;
+    }
+    .arrow {
+        display: none;
     }
 }
