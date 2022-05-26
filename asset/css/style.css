@@ -234,4 +234,7 @@ width: 100vw;
     .arrow {
         display: none;
     }
+    .buyCoffee {
+        display:none;
+    }
 }
